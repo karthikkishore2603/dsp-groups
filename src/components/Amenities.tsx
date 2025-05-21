@@ -29,7 +29,7 @@ const amenities = [
     reverse: false,
   },
   {
-    image: "/college.jpg",
+    image: "/college.webp",
     title: "Education",
     desc: "Om Shakti Avenue offers proximity to premier educational institutions.",
     points: [
@@ -48,7 +48,7 @@ const amenities = [
 export default function Amenities() {
   return (
     <section className="w-full py-16 bg-white" id="amenities">
-      <div className="container mx-auto px-4 md:px-0">
+      <div className="container mx-auto px-4 md:px-0 xl:px-20 2xl:px-32">
         <div className="text-center mb-14 animate-fade-in">
           <h2 className="text-2xl md:text-3xl font-bold text-navy mb-3 font-sans">
             Exceptional Amenities Just Moments Away!
